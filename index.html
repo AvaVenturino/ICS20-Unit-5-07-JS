@@ -32,12 +32,8 @@
       </header>
       <main class="mdl-layout__content">
         <h6>Formula: Sn = n/2 (n+1)</h6>
-        <h6>Enter 2 numbers you would like to multiply</h6>
-        Enter first number
-        <input type="number" id="counter1" name="counter1" value="0" oninput="validity.valid||(value='');">
-        <br><br>
-        Enter second number
-        <input type="number" id="counter2" name="counter2" value="0" oninput="validity.valid||(value='');">
+        Enter a positive number
+        <input type="number" id="counter" name="counter1" value="0" min="0" oninput="validity.valid||(value='');">
         <br><br>
         <!-- Raised button with ripple -->
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick= "myButtonClicked()">
