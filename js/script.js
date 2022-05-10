@@ -19,7 +19,7 @@ if (navigator.serviceWorker) {
 function myButtonClicked() {
   const num = parseInt(document.getElementById("num").value);
   let sum = 0;
-  
+
   for (let counter = 1; counter <= num; counter++) {
     sum += counter;
   }
