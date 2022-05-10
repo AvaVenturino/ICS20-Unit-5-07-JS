@@ -17,7 +17,6 @@ if (navigator.serviceWorker) {
  * Input
  */
 function myButtonClicked() {
-
   const num = parseInt(document.getElementById("num").value);
   let sum = 0;
   
